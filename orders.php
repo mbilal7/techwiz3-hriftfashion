@@ -61,7 +61,6 @@ if(isset($_SESSION['user_id'])){
       <p>Your Orders : <span><?= $fetch_orders['total_products']; ?></span></p>
       <p>Total Price : <span>Rs<?= $fetch_orders['total_price']; ?>/-</span></p>
       <p> Payment Status : <span style="color:<?php if($fetch_orders['payment_status'] == 'pending'){ echo 'red'; }else{ echo 'green'; }; ?>"><?= $fetch_orders['payment_status']; ?></span> </p>
-      <input type="submit" name="order" class="btn <?$delete = $conn->prepare("DELETE * FROM `orders` where user_id =?";) ?>" value="place order">
 
    </div>
    <?php
