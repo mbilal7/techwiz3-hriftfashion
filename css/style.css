@@ -7,7 +7,7 @@
    --black:#333;
    --white:#fff;
    --light-color:#666;
-   --light-bg:#eee;
+   --light-bg:#D1EBFF;
    --border:.2rem solid var(--black);
    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 }
@@ -42,11 +42,31 @@ section{
 
 .heading{
    font-size: 4rem;
-   color:var(--black);
+   color:var(--main-color);
    margin-bottom: 2rem;
    text-align: center;
    text-transform: capitalize;
 }
+.btn-outline{
+   display: block;
+   width: 100%;
+   margin-top: 1rem;
+   border-radius: .5rem;
+   padding:1rem 3rem;
+   font-size: 1.7rem;
+   text-transform: capitalize;
+   border: 2px solid white;
+   background-color: var(--white);
+   color:var(--main-color);
+   cursor: pointer;
+   text-align: center;
+}
+.btn-outline:hover{
+   border: 2px solid var(--main-color);
+   color: var(--main-color);
+   transition: 0.3s linear;
+}
+
 
 .btn,
 .delete-btn,
@@ -70,7 +90,7 @@ section{
 }
 
 .btn{
-   background-color: var(--orange);
+   background-color: var(--main-color);
 }
 
 .option-btn{
@@ -160,14 +180,10 @@ section{
 }
 
 .header .flex .navbar a{
-    text-transform: capitalize;
+   text-transform: capitalize;
    margin:0 1rem;
    font-size: 2rem;
-   color:var(--black);
-}
-
-.header .flex .navbar a{
-    text-transform: capitalize;
+   color:var(--main-color);
 }
 
 .header .flex .navbar a:hover{
@@ -178,7 +194,7 @@ section{
 
 .header .flex .icons > *{
    margin-left: 1rem;
-   font-size: 2.5rem;
+   font-size: 3rem;
    cursor: pointer;
    color:var(--black);
 }
@@ -188,6 +204,10 @@ section{
 }
 
 .header .flex .icons a span{
+   background:var(--red);
+   border-radius:50%;
+   padding:1px 8px;
+   color:var(--white);
    font-size: 2rem;
 }
 
@@ -357,7 +377,6 @@ section{
 .quick-view form{
    padding:2rem;
    border-radius: .5rem;
-   border:var(--border);
    background-color: var(--white);
    box-shadow: var(--box-shadow);
    margin-top: 1rem;
@@ -862,7 +881,6 @@ section{
 .orders .box-container .box{
    padding:1rem 2rem;
    flex:1 1 40rem;
-   border:var(--border);
    background-color: var(--white);
    box-shadow: var(--box-shadow);
    border-radius: .5rem;
@@ -876,7 +894,7 @@ section{
 }
 
 .orders .box-container .box p span{
-   color:var(--main-color);
+   color:#2B587A;
 }
 
 .footer{
@@ -899,6 +917,7 @@ section{
 }
 
 .footer .grid .box a{
+   text-transform: capitalize;
    display: block;
    margin:1.5rem 0;
    font-size: 1.7rem;
@@ -921,14 +940,14 @@ section{
 
 .footer .credit{
    text-align: center;
+   background: #81C7FA;
    padding: 1.5rem 2rem;
-   border-top: var(--border);
-   font-size: 2rem;
-   color:var(--black);
+   font-size: 1.7rem;
+   color:var(--white);
 }
 
 .footer .credit span{
-   color:var(--main-color);
+   color:#2B587A;
 }
 
 
