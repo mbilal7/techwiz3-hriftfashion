@@ -3,7 +3,7 @@
 include 'components/connect.php';
 
 session_start();
-print_r($_SESSION);
+
 if(isset($_SESSION['admin_id'])) {
    $message[] = 'You are logged in as admin';
 
@@ -41,7 +41,7 @@ include 'components/wishlist_cart.php';
    
 <?php include 'components/user_header.php'; ?>
 
-<div class="home-bg">
+<div class="home-bg" style="background: linear-gradient(to bottom right,rgba(42, 142, 182, 0.841),white);">
 
 <section class="home">
 
@@ -51,31 +51,35 @@ include 'components/wishlist_cart.php';
 
       <div class="swiper-slide slide"> 
          <div class="content">
-            <h3>Best Smartphones</h3>
-            <a href="shop.php" class="btn">Shop Now</a>
+            <h3>T-Shirts For Summer</h3>
+            <!-- <a href="shop.php" class="btn">Shop Now</a> -->
+            <div class="content"> <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, minima?</p></div>
+           
          </div>
          <div class="image">
-            <img src="images/home-img-1.png" alt="">
+            <img src="images/t-shirt.png" alt="">
          </div>
       </div>
 
       <div class="swiper-slide slide"> 
          <div class="content">
-            <h3>Best Watches</h3>
-            <a href="shop.php" class="btn">Shop Now</a>
+            <h3>Denim Jackets</h3>
+            <!-- <a href="shop.php" class="btn">Shop Now</a> -->
+            <div class="content"> <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, minima?</p></div>
          </div>
          <div class="image">
-            <img src="images/home-img-2.png" alt="">
+            <img src="images/jacket.png" alt="">
          </div>
       </div>
 
       <div class="swiper-slide slide">
          <div class="content">
-            <h3>Best Gaming Headphones</h3>
-            <a href="shop.php" class="btn">Shop Now</a>
+            <h3>Fasionable Shoes</h3>
+            <!-- <a href="shop.php" class="btn">Shop Now</a> -->
+            <div class="content"> <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, minima?</p></div>
          </div>
          <div class="image">
-            <img src="images/home-img-3.png" alt="">
+            <img src="images/imgbg-removebg-preview.png" alt="">
          </div>
       </div>
 
@@ -89,64 +93,24 @@ include 'components/wishlist_cart.php';
 
 </div>
 
-<!-- <section class="category">
+<section class="about">
 
-   <h1 class="heading">shop by category</h1>
+   <div class="row">
 
-   <div class="swiper category-slider">
+      <div class="image">
+         <img src="images/about-img.svg" alt="">
+      </div>
 
-   <div class="swiper-wrapper">
-
-   <a href="category.php?category=laptop" class="swiper-slide slide">
-      <img src="images/icon-1.png" alt="">
-      <h3>laptop</h3>
-   </a>
-
-   <a href="category.php?category=tv" class="swiper-slide slide">
-      <img src="images/icon-2.png" alt="">
-      <h3>tv</h3>
-   </a>
-
-   <a href="category.php?category=camera" class="swiper-slide slide">
-      <img src="images/icon-3.png" alt="">
-      <h3>camera</h3>
-   </a>
-
-   <a href="category.php?category=mouse" class="swiper-slide slide">
-      <img src="images/icon-4.png" alt="">
-      <h3>mouse</h3>
-   </a>
-
-   <a href="category.php?category=fridge" class="swiper-slide slide">
-      <img src="images/icon-5.png" alt="">
-      <h3>fridge</h3>
-   </a>
-
-   <a href="category.php?category=washing" class="swiper-slide slide">
-      <img src="images/icon-6.png" alt="">
-      <h3>washing machine</h3>
-   </a>
-
-   <a href="category.php?category=smartphone" class="swiper-slide slide">
-      <img src="images/icon-7.png" alt="">
-      <h3>smartphone</h3>
-   </a>
-
-   <a href="category.php?category=watch" class="swiper-slide slide">
-      <img src="images/icon-8.png" alt="">
-      <h3>watch</h3>
-   </a>
+      <div class="content">
+         <h3>why choose us?</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam veritatis minus et similique doloribus? Harum molestias tenetur eaque illum quas? Obcaecati nulla in itaque modi magnam ipsa molestiae ullam consequuntur.</p>
+         <a href="contact.php" class="btn">contact us</a>
+      </div>
 
    </div>
 
-   <div class="swiper-pagination"></div>
+</section>
 
-   </div>
-
-</section> -->
-
-
-section.
 
 
 

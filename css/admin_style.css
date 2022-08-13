@@ -161,7 +161,6 @@ section{
    background-color: var(--white);
    border-radius: .5rem;
    width: 50rem;
-   border:var(--border);
 }
 
 .form-container form h3{

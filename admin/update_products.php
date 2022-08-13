@@ -135,7 +135,6 @@ if(isset($_POST['update'])){
          <div class="sub-image">
             <img src="../uploaded_img/<?= $fetch_products['image_01']; ?>" alt="">
             <img src="../uploaded_img/<?= $fetch_products['image_02']; ?>" alt="">
-            <img src="../uploaded_img/<?= $fetch_products['image_03']; ?>" alt="">
          </div>
       </div>
       <span>update name</span>

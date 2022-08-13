@@ -59,7 +59,7 @@ if(isset($_POST['submit'])){
    }
 ?>
 
-<section class="form-container">
+<section class="form-container" >
 
    <form action="" method="post">
       <h3>login now</h3>

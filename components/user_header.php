@@ -13,13 +13,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-</head>
+
 <body>
 <header class="header">
 
    <section class="flex">
 
-      <a href="home.php" class="logo">Thrift Fashion<span>.</span></a>
+      <a href="index.php" class="logo">Thrift Fashion<span>.</span></a>
 
       <nav class="navbar">
          <a href="index.php">home</a>

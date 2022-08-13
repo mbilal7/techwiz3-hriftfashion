@@ -43,7 +43,7 @@ if(isset($_SESSION['user_id'])){
    <div class="row">
 
       <div class="image">
-         <img src="images/about-img.svg" alt="">
+         <img src="images/about-img2.svg" alt="">
       </div>
 
       <div class="content">
