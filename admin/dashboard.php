@@ -4,7 +4,6 @@ include '../components/connect.php';
 
 session_start();
 $admin_id = $_SESSION['admin_id'];
-print_r($_SESSION);
 if(isset($_SESSION['user_id'])) {
    $message[] = 'You are logged in as user';
 

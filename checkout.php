@@ -132,7 +132,7 @@ if(isset($_POST['order'])){
             <input type="text" name="flat" placeholder="e.g. flat number" class="box" required>
          </div>
          <div class="inputBox">
-            <span>pin code :</span>
+            <span>postal code :</span>
             <input type="number" min="0" name="pin_code" placeholder="e.g. 123456" max="9999999999" class="box" onkeypress="if(this.value.length == 6) return false;" required>
          </div>
       </div>
